@@ -1,11 +1,5 @@
-
-const pictures = [
-    ("2.jpg"),
-    ("3.jpg"),
-    ("4.jpg"),
-];
-
 let answers = document.getElementById("answers")
+let pictures = `<img src = images>`
 
 
 
