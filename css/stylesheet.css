@@ -1,8 +1,8 @@
 button {
     height: 40px;
     width: 100px;
-    color: green;
-    background-color: black;
+    color: whitesmoke;
+    background-color: grey;
     cursor: pointer;
     justify-content: center;
     justify-items: center;
@@ -12,8 +12,7 @@ button {
     width: 500px;
 }
 
-.answers {
-    height: 200px;
-    width: 200px;
-    border: solid;
+.images {
+    height: 50px;
+    width: 50px;
 }
