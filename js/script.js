@@ -14,6 +14,7 @@ function createImage(imgSrc) {
     response.height = '200';
     response.width = '200';
     response.src = imgSrc;
+    
 
     answers.innerHTML = " ";
     answers.appendChild(response);
@@ -22,9 +23,7 @@ function createImage(imgSrc) {
 
 button.addEventListener("click", function() {
     const questions = document.getElementById("yourQuestions");
-    const userQuestions = document.getElementById("userQuestions");
     const expression = new RegExp(/\?$/g);
-    userQuestions.innerHTML = (questions.value)
     console.log(questions.value);
 
     if (expression.test(questions.value)){
